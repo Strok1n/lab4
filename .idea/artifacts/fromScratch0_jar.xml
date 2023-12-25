@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fromScratch0:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/fromScratch0_jar</output-path>
+    <root id="archive" name="fromScratch0.jar">
+      <element id="module-output" name="fromScratch0" />
+    </root>
+  </artifact>
+</component>
