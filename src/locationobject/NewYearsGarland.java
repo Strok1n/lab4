@@ -1,0 +1,10 @@
+package locationobject;
+
+public enum NewYearsGarland {
+    BLACK_NEW_YEARS_GARLAND,
+    WHITE_NEW_YEARS_GARLAND,
+    BLUE_NEW_YEARS_GARLAND,
+    GREEN_NEW_YEARS_GARLAND,
+    RED_NEW_YEARS_GARLAND,
+    PURPLE_NEW_YEARS_GARLAND
+}

@@ -4,8 +4,9 @@ import enumeration.*;
 import geometry.TwoDimensionalPoint;
 import location.*;
 import locationobject.Gates;
+import locationobject.NewYearsGarland;
 import locationobject.Rails;
-import locationobject.Tree;
+import locationobject.ChristmasTree;
 import locationobject.item.Photo;
 import locationobject.item.Pizza;
 import locationobject.item.Sandwich;
@@ -162,12 +163,12 @@ public class Main {
             cemetery.addLocationObject(new Rails(), new TwoDimensionalPoint(2, 9));
             cemetery.addLocationObject(new Rails(), new TwoDimensionalPoint(2, 10));
             cemetery.addLocationObject(gates, new TwoDimensionalPoint(4, 4));
-            cemetery.addLocationObject(new Tree(TreeState.STATIC), new TwoDimensionalPoint(3, 1));
-            cemetery.addLocationObject(new Tree(TreeState.STATIC), new TwoDimensionalPoint(7, 4));
-            cemetery.addLocationObject(new Tree(TreeState.STATIC), new TwoDimensionalPoint(5, 6));
-            cemetery.addLocationObject(new Tree(TreeState.STATIC), new TwoDimensionalPoint(8, 8));
-            cemetery.addLocationObject(new Tree(TreeState.STATIC), new TwoDimensionalPoint(3, 9));
-            cemetery.addLocationObject(new Tree(TreeState.STATIC), new TwoDimensionalPoint(3, 11));
+            cemetery.addLocationObject(new ChristmasTree(TreeState.STATIC, NewYearsGarland.BLACK_NEW_YEARS_GARLAND, NewYearsGarland.PURPLE_NEW_YEARS_GARLAND), new TwoDimensionalPoint(3, 1));
+            cemetery.addLocationObject(new ChristmasTree(TreeState.STATIC, NewYearsGarland.PURPLE_NEW_YEARS_GARLAND), new TwoDimensionalPoint(7, 4));
+            cemetery.addLocationObject(new ChristmasTree(TreeState.STATIC, NewYearsGarland.GREEN_NEW_YEARS_GARLAND, NewYearsGarland.RED_NEW_YEARS_GARLAND), new TwoDimensionalPoint(5, 6));
+            cemetery.addLocationObject(new ChristmasTree(TreeState.STATIC, NewYearsGarland.WHITE_NEW_YEARS_GARLAND, NewYearsGarland.RED_NEW_YEARS_GARLAND), new TwoDimensionalPoint(8, 8));
+            cemetery.addLocationObject(new ChristmasTree(TreeState.STATIC, NewYearsGarland.BLUE_NEW_YEARS_GARLAND), new TwoDimensionalPoint(3, 9));
+            cemetery.addLocationObject(new ChristmasTree(TreeState.STATIC, NewYearsGarland.BLUE_NEW_YEARS_GARLAND), new TwoDimensionalPoint(3, 11));
 
 
             // creation of actions in cemetery
